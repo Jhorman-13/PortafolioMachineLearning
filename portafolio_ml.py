@@ -72,5 +72,5 @@ with col3:
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos un medidor de energía.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
-    url = "https://algoritmosdeclasificaci-nmachinelearning-nlwtera4y6tmvbnnqxx6f.streamlit.app/"
+    url = "https://medidormachinelearning-qxjm9wjkahunrg2gamyxgw.streamlit.app/"
     st.write(f"Sesión 7: [Enlace]({url})")
