@@ -19,33 +19,33 @@ st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ml})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.subheader("Clasificación con KNN")
+    st.subheader("Regresión Linear vs Machine Learning")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("sesion1.png")
     st.image(image, width=190)
-    st.write("En el siguiente enlace veremos cómo clasificar datos usando el algoritmo KNN.")
+    st.write("En el siguiente enlace veremos un predictor en vivo")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
-    url = "REEMPLAZA_url_knn.streamlit.app/"
-    st.write(f"KNN: [Enlace]({url})")
+    url = "https://regresionlinealvsmachinelearning-ux6khtkad5zv7kdpveqhqf.streamlit.app/"
+    st.write(f"Sesión 1: [Enlace]({url})")
 
     
 
 with col2:
-    st.subheader("Agrupamiento con K-Means")
+    st.subheader("Regresión lógistica")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("sesion2.png")
     st.image(image, width=190)
-    st.write("En el siguiente enlace veremos cómo agrupar datos usando K-Means.")
+    st.write("En el siguiente enlace veremos un predictor de compra de seguro.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
-    url = "REEMPLAZA_url_kmeans.streamlit.app/"
-    st.write(f"K-Means: [Enlace]({url})")
+    url = "https://regresionlogisticamachinelearning-mysppcdp2few6h8ju6pjjw.streamlit.app/"
+    st.write(f"Sesión 2: [Enlace]({url})")
 
 with col3:
-    st.subheader("Árboles de Decisión")
+    st.subheader("Algoritmos de clasificación.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("sesion3.png")
     st.image(image, width=190)
-    st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
+    st.write("En el siguiente enlace veremos la clasificación supervisada.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
-    url = "REEMPLAZA_url_arbol.streamlit.app/"
-    st.write(f"Árbol de Decisión: [Enlace]({url})")
+    url = "https://algoritmosdeclasificaci-nmachinelearning-nlwtera4y6tmvbnnqxx6f.streamlit.app/"
+    st.write(f"Sesión 4: [Enlace]({url})")
