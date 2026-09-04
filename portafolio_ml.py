@@ -21,7 +21,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("Regresión Linear vs Machine Learning")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("sesion1.png")
+    image = Image.open("Sesion1.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos un predictor en vivo")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -33,7 +33,7 @@ with col1:
 with col2:
     st.subheader("Regresión lógistica")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("sesion2.png")
+    image = Image.open("Sesion2.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos un predictor de compra de seguro.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -43,7 +43,7 @@ with col2:
 with col3:
     st.subheader("Algoritmos de clasificación.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("sesion3.png")
+    image = Image.open("Sesion3.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos la clasificación supervisada.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
