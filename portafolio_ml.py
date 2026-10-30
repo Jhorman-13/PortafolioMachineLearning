@@ -277,21 +277,6 @@ sesiones = [
             ),
         ],
     },
-    {
-        "numero": 15,
-        "titulo": "Nuevo tema de Machine Learning",
-        "imagen": "Sesion15.png",
-        "descripcion": (
-            "Espacio reservado para incorporar una nueva aplicación, "
-            "tema o ejercicio práctico de Machine Learning."
-        ),
-        "enlaces": [
-            (
-                "Sesión 15: Agregar enlace",
-                "https://example.com"
-            )
-        ],
-    },
 ]
 
 # ============================================================
